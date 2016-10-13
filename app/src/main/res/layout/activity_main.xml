@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fast_food"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.android.fastfood.MainActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/Business_Name"
+        android:text="@string/Business_Name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/CheckBox1"
+            style="@style/Check_boxes"
+            android:text="@string/Rice_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            style="@style/Check_boxes"
+            android:layout_toEndOf="@+id/CheckBox1"
+            android:layout_toRightOf="@+id/CheckBox1"
+            android:text="@string/Beans_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            style="@style/Check_boxes"
+            android:layout_toEndOf="@+id/checkbox2"
+            android:layout_toRightOf="@+id/checkbox2"
+            android:text="@string/plantain_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            style="@style/Check_boxes"
+            android:layout_below="@+id/CheckBox1"
+            android:text="@string/Afang_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox5"
+            style="@style/Check_boxes"
+            android:layout_below="@+id/checkbox2"
+            android:layout_toEndOf="@+id/checkbox4"
+            android:layout_toRightOf="@+id/checkbox4"
+            android:text="@string/Egusi_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox6"
+            style="@style/Check_boxes"
+            android:layout_below="@+id/checkbox5"
+            android:text="@string/White_soup_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox7"
+            style="@style/Check_boxes"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/checkbox3"
+            android:text="@string/Salad_order"
+            android:textColor="@color/Rice_colors" />
+
+        <CheckBox
+            android:id="@+id/checkbox8"
+            style="@style/Check_boxes"
+            android:layout_alignTop="@+id/checkbox6"
+            android:layout_toEndOf="@+id/checkbox6"
+            android:layout_toRightOf="@+id/checkbox6"
+            android:text="@string/Vegetable_order"
+            android:textColor="@color/Rice_colors" />
+    </RelativeLayout>
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/Business_Name"
+        android:text="@string/Address_Header" />
+    <TextView
+        style="@style/Contact_Header"
+        android:text="@string/Address_Name" />
+    <TextView
+        style="@style/Contact_Header"
+        android:text="@string/Telephone_Num" />
+    <TextView
+        style="@style/Contact_Header"
+        android:text="@string/Mail_Name" />
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/Business_Name"
+        android:text="@string/Hour_Header" />
+    <TextView
+        style="@style/Contact_Header"
+        android:text="@string/Hours_open"
+        android:gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/Button1"
+        android:layout_gravity="center_horizontal"
+        style="@style/Order_Button"
+        android:background="@color/Rice_colors"
+        android:text="@string/Order_button" />
+
+</LinearLayout>

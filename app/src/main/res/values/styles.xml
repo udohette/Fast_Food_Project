@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/Business_Name</item>
+    </style>
+    <!-- Style for a category of vocabulary words -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- Style for a category of vocabulary words -->
+    <style name="Check_boxes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- Style for a category of vocabulary words -->
+    <style name="Contact_Header">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:padding">8dp</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <!-- Style for a category of vocabulary words -->
+    <style name="Order_Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+
+</resources>

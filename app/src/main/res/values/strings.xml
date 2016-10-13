@@ -1,0 +1,40 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Fast Food</string>
+    <!-- Business Name of the App-->
+    <string name="Business_Name">MEAL HOUR RESTAURANT</string>
+    <!-- First Food offered -->
+    <string name="Rice_order">Rice</string>
+    <!-- Second Food Offered-->
+    <string name="Beans_order">Beans</string>
+    <!-- Second Food Offered-->
+    <string name="plantain_order">Plantain</string>
+    <!-- Second Food Offered-->
+    <string name="moi_moi_order">Moi-Moi</string>
+    <!-- Second Food Offered-->
+    <string name="Vegetable_order">Vegetable</string>
+    <!-- Second Food Offered-->
+    <string name="Egusi_order">Egusi</string>
+    <!-- Second Food Offered-->
+    <string name="White_soup_order">White Soup</string>
+    <!-- Second Food Offered-->
+    <string name="Salad_order">Salad</string>
+    <!-- Second Food Offered-->
+    <string name="Afang_order">Afang Soup</string>
+    <!-- Address HEADER-->
+    <string name="Address_Header">!!YOU CAN REACH US!!</string>
+    <!-- Address Name of the Business-->
+    <string name="Address_Name">Flat 511, 5th Floor, 1004 Estate, Vi,Lagos</string>
+    <!-- Phone numbers of the Business-->
+    <string name="Telephone_Num">07069613023,08025774336</string>
+    <!-- Mail Address of the Business-->
+    <string name="Mail_Name">udohette@gmail.com</string>
+    <!-- Business HOUR  HEADER-->
+    <string name="Hour_Header">HOURS OF OPERATION</string>
+    <!-- Business Hour of Operation-->
+    <string name="Hours_open">Mon 7am -    Sat 9pm</string>
+    <!-- Order Button-->
+    <string name="Order_button">Order Button</string>
+
+
+</resources>
